@@ -89,11 +89,7 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I will use Spyder. I have been using it for a while and have read and heard very good things about it. I really like that Spyder has many autocomplete options for Python. If I start a quote or a parenthesis it will automatically close it. If I use a command like "print" and open parenthesis it will automatically tell me all the different arguments that that command can take. If I type something like "pandas." it will immediately show me all the possible options I can choose from.
-
-I like the shortcuts "command+4" which makes block comments when I want to temporarily not run part of the code and "command+l" which jumps to a specific line in the script.
-
-Python is very customizable and most of it can be done from the preferences menu. 
+>> I will use Spyder. I have been using it for a while and have read and heard very good things about it. I really like that Spyder has many autocomplete options for Python. If I start a quote or a parenthesis it will automatically close it. If I use a command like "print" and open parenthesis it will automatically tell me all the different arguments that that command can take. If I type something like "pandas." it will immediately show me all the possible options I can choose from. I like the shortcuts "command+4" which makes block comments when I want to temporarily not run part of the code and "command+l" which jumps to a specific line in the script.Python is very customizable and most of it can be done from the preferences menu. 
 
 
  
