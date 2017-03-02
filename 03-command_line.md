@@ -19,7 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - pwd = show current directory
+	- mkdir = create directory
+	- rmdir = delete directory
+	- touch file.txt = create file.txt (or update last modified date if 	already existing)
+	- rm file.txt = delete file.txt
+	- mv file.txt newfile.txt = renames file 
+	- ls -a = lists all files including hidden ones
+	- cp users/file.txt = users/folder/file.txt = moves 
+	- less file.txt = view the contents of file.txt one screen at a time
+	- grep words file.txt = finds and prints instances of 'words' in 		file.txt
+
 
 ---
 
@@ -34,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls = lists all files and folders in current working directory
+	ls -a = lists all files and folders in current working directory (		including hidden files)
+	ls -l = list all files with additional information for each
+	ls -lh = lists all files with additional information for each and 		makes file sizes human-readable
+	ls -lah lists all files with additional information for each, makes 	file sizes human-readable, shows hidden files and folders too
+	ls -t = lists all files in order of last modified, starting with most 	  recent
+	ls -Glp = lists all files, with additional information, with a '/' after each folder, 
 
 ---
 
@@ -42,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -r = displays files and directories in reverse order
+	ls -R = displays all subdirectories
+	ls -m = displays files and folders separated by commas, good to 			create a .csv 
+	ls - d = displays directories only
+	ls  -S = sort files by size, starting with largest
 
 ---
 
