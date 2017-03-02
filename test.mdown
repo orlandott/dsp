@@ -3,3 +3,16 @@
 
 **this should be bold**
 
+
+--
+
+now
+
+#big shit over here
+
+--
+
+- 1 
+- 2
+- 3
+
