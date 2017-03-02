@@ -1,18 +1,19 @@
-
-*Hello*
-
-**this should be bold**
+#This is a document
 
 
---
-
-now
-
-#big shit over here
+And I would like to make *every* important word very **bold**.
 
 --
 
-- 1 
-- 2
-- 3
+## A new section here may work
+
+And then you got some bullets:
+
+- Dogs
+- Cats
+- Humans
+
+And more **bold** words here, and a few more, *even more* important words.
+
+
 
