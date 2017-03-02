@@ -20,5 +20,5 @@ And more **bold** words here, and a few more, *even more* important words.
 
 --
 
-Let's try creating a link know. I want the [word](https://word.com) to take me to the wordy website. 
+Let's try creating a link know. I want the [word](https://www.word.com) to take me to the wordy website. 
 
