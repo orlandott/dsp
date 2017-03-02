@@ -48,7 +48,7 @@ What do the following commands do:
 	ls -a = lists all files and folders in current working directory (		including hidden files). 
 	ls -l = list all files with additional information for each. 
 	ls -lh = lists all files with additional information for each and 		makes file sizes human-readable. 
-	ls -lah lists all files with additional information for each, makes 	file sizes human-readable, shows hidden files and folders too. 
+	ls -lah =  lists all files with additional information for each, makes 	file sizes human-readable, shows hidden files and folders too. 
 	ls -t = lists all files in order of last modified, starting with most 	  recent. 
 	ls -Glp = lists all files, with additional information, with a '/' after each folder.  
 
