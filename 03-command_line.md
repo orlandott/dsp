@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls = lists all files and folders in current working directory
-	ls -a = lists all files and folders in current working directory (		including hidden files)
-	ls -l = list all files with additional information for each
-	ls -lh = lists all files with additional information for each and 		makes file sizes human-readable
-	ls -lah lists all files with additional information for each, makes 	file sizes human-readable, shows hidden files and folders too
-	ls -t = lists all files in order of last modified, starting with most 	  recent
-	ls -Glp = lists all files, with additional information, with a '/' after each folder, 
+> > ls = lists all files and folders in current working directory. 
+	ls -a = lists all files and folders in current working directory (		including hidden files). 
+	ls -l = list all files with additional information for each. 
+	ls -lh = lists all files with additional information for each and 		makes file sizes human-readable. 
+	ls -lah lists all files with additional information for each, makes 	file sizes human-readable, shows hidden files and folders too. 
+	ls -t = lists all files in order of last modified, starting with most 	  recent. 
+	ls -Glp = lists all files, with additional information, with a '/' after each folder.  
 
 ---
 
@@ -58,11 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -r = displays files and directories in reverse order
-	ls -R = displays all subdirectories
-	ls -m = displays files and folders separated by commas, good to 			create a .csv 
-	ls - d = displays directories only
-	ls  -S = sort files by size, starting with largest
+> > ls -r = displays files and directories in reverse order. 
+	ls -R = displays all subdirectories. 
+	ls -m = displays files and folders separated by commas, good to 			create a .csv. 
+	ls - d = displays directories only. 
+	ls  -S = sort files by size, starting with largest. 
 
 ---
 
