@@ -22,3 +22,16 @@ And more **bold** words here, and a few more, *even more* important words.
 
 Let's try creating a link know. I want the [word](https://www.word.com) to take me to the wordy website. 
 
+> Now let's see how this wrapping thing goes. I'm not really sure what to do about my typing speed. Just keep going. 
+
+> Just keep going baby.
+
+
+~~Cat scratched this line~~
+
+`they say these backticks can make it look like code?`
+
+Let's | Try | a | Table
+--- | --- | --- | ---
+Looks | good | to | me
+1 | 2 | 3 | 4 
