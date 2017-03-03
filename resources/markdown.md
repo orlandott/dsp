@@ -1,3 +1,4 @@
+
 ##[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
 
 ###[What Is Markdown? 4 Reasons Why You Should Learn It Now](http://www.makeuseof.com/tag/markdown-4-reasons-learn-now/)  
@@ -165,6 +166,9 @@ Content in the first column | Content in the second column
 
 ####Data Science Trivia 
 
+
+
+
 ####Q1.  
 What is the most installed language in the world?  
 - Python
@@ -173,7 +177,7 @@ What is the most installed language in the world?
 - Spark
 - Javascript
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The answer really depends on how you try to approximate the real number. Since we don't know what people have on their computers, we have to use proxy measures. According to [Github](https://octoverse.github.com/), the one used the most on their website is Javascript. According to [PYPL](http://pypl.github.io/PYPL.html) it's Java followed by Python. According to [TIOBE](http://www.tiobe.com/tiobe-index/), it's Java followed by a few varieties of C.
 
 -
 
@@ -186,7 +190,7 @@ What is the distribution of t-squared?
  * Beta
  * Bivariate Normal
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>>The distribution of t-squared is proportional to the F distribution.
 
 ***
 
@@ -197,9 +201,9 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 3. 700  
 4. 7000  
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> There are 776 issues outstanding in the scikit-learn repo.
 
----
+`---
 
 ## <a name="section-r"></a>References 
 
