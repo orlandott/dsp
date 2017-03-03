@@ -203,7 +203,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 
 >> There are 776 issues outstanding in the scikit-learn repo.
 
-`---
+
 
 ## <a name="section-r"></a>References 
 
