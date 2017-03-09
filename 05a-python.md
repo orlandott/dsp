@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Tuples are immutable, lists are not. They are similar in that you can use indices[x] or slices[x:y]to call different objects inside. They also differ in that tuple assignment allows for changing tuple variables without the need of an intermediary variable (a,b = b,a). Tuples can also be used so a function returns more than one value(divmod function). Tuples combine different variables into one variable. Tuples will work as keys in a dictionary but lists will not. The short answer for this is that since lists are mutable then they don't have a hash function which means they cannot work as keys in a dictionary. Keys in a dictionary must be hashable(and thus immutable) so they are accessed more quickly.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sets and list both are ways of organizing data. However, sets cannot have duplicates. Additionally, sets are unordered. Sets only allow hashable items which means they are faster to look through than lists. Sets can also be used to remove duplicates by converting something into a set. Sets also allow the typical operations from set theory in math like union, intersection, and difference. 
 
 ---
 
@@ -28,7 +28,9 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is used to pass an anonymous function. It can be used to create a quick function that is only used in that instance. For example, one could use lambda as a function in the key argument as such: 
+
+` sorted(list, key = lambda word: word.lower()) `
 
 ---
 
