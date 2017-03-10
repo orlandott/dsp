@@ -46,22 +46,23 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions are a way to quickly create lists. For example, instead of having to create a 'for' loop, we can simply create a list by typing 
 
-`squares = [x**2 for x in range(1,20)]
+```
+squares = [x**2 for x in range(1,20)]
 
 cubed = [x**3 for x in range(1,10)]
 
 uppercased = [x for x in my_list if x.isupper() == True]
-`
+```
 
 using map and filter instead:
 
-`
+```
 squaresevens = map(lambda x: x**2, range(1,20))
 
 cubedodds = map(lambda x: x**3, range(1,10)
 
 uppercased = filter(lambda x: x.isupper == True, my_list)
-`
+```
 
 
 
