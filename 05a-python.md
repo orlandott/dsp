@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Tuples are immutable, lists are not. They are similar in that you can use indices[x] or slices[x:y]to call different objects inside. They also differ in that tuple assignment allows for changing tuple variables without the need of an intermediary variable (a,b = b,a). Tuples can also be used so a function returns more than one value(divmod function). Tuples combine different variables into one variable. Tuples will work as keys in a dictionary but lists will not. The short answer for this is that since lists are mutable then they don't have a hash function which means they cannot work as keys in a dictionary. Keys in a dictionary must be hashable(and thus immutable) so they are accessed more quickly.
+>> Tuples are immutable, lists are not. They are similar in that you can use indices[x] or slices[x:y]to call different objects inside. Lists are enclosed by [] and tuples by (). They also differ in that tuple assignment allows for changing tuple variables without the need of an intermediary variable (a,b = b,a). Tuples can also be used so a function returns more than one value(e.g. divmod function). Tuples will work as keys in a dictionary but lists will not. The short answer for this is that since lists are mutable they don't have a hash function which means they cannot be searched through as efficiently. Keys in a dictionary must be hashable(and thus immutable) so they are accessed more quickly.
 
 ---
 
@@ -32,13 +32,39 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 ` sorted(list, key = lambda word: word.lower()) `
 
+another example of lambda is to map or filter a function over a range of numbers:
+
+` cubed = map(lambda x: x**3, range(1,10))
+  evens = filter(lambda x: x%2==0, range(1,20))
+`
+
 ---
 
 ### Q4. List Comprehension, Map &amp; Filter
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are a way to quickly create lists. For example, instead of having to create a 'for' loop, we can simply create a list by typing 
+
+`squares = [x**2 for x in range(1,20)]
+
+cubed = [x**3 for x in range(1,10)]
+
+uppercased = [x for x in my_list if x.isupper() == True]
+`
+
+using map and filter instead:
+
+`
+squaresevens = map(lambda x: x**2, range(1,20))
+
+cubedodds = map(lambda x: x**3, range(1,10)
+
+uppercased = filter(lambda x: x.isupper == True, my_list)
+`
+
+
+
 
 ---
 
