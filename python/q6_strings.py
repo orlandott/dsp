@@ -18,8 +18,12 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    if count < 10:
+        return count
+    elif count >= 10:
+        return 'many'
 
+donuts(11)
 
 def both_ends(s):
     """
@@ -37,8 +41,14 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
-
+    
+    if len(s) < 2:
+        return('')
+    else:
+        begin = s[:2]
+        end = s[-2:]
+        return(begin + end)
+    
 
 def fix_start(s):
     """
@@ -56,7 +66,17 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    rsplt = list(s)
+    new = []
+    first = splt[0]
+    new.append(first)
+    for x in splt[1:]:
+        if x == first:
+            new.append("*")
+        else:
+            new.append(x)
+        res = ''.join(new)
+    print(res)
 
 
 def mix_up(a, b):
