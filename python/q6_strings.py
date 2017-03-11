@@ -23,7 +23,6 @@ def donuts(count):
     elif count >= 10:
         return 'many'
 
-donuts(11)
 
 def both_ends(s):
     """
@@ -66,7 +65,7 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    rsplt = list(s)
+    splt = list(s)
     new = []
     first = splt[0]
     new.append(first)
