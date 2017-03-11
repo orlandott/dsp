@@ -23,6 +23,7 @@ def donuts(count):
     elif count >= 10:
         return 'many'
 
+--
 
 def both_ends(s):
     """
@@ -47,7 +48,8 @@ def both_ends(s):
         begin = s[:2]
         end = s[-2:]
         return(begin + end)
-    
+  
+ --   
 
 def fix_start(s):
     """
