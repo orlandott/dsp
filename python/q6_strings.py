@@ -147,7 +147,15 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+#     
+    xnot = s.find('not')
+    xbad = s.find('bad')
+
+    if xbad > xnot:
+        s = s.replace(s[xnot:(xbad+3)], 'good')
+
+    return s
+
 
 #------------------------------------------------------------------------------ 
 
@@ -167,4 +175,4 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    
