@@ -15,8 +15,14 @@ def match_ends(words):
     >>> match_ends(['aaa', 'be', 'abc', 'hello'])
     1
     """
-    raise NotImplementedError
+    counter = 0
+    for word in words:
+        if len(word) >= 2:
+            if word[0] == word[-1]:
+                counter += 1
+    return counter
 
+#----------------------------------------------------------------------------------------
 
 def front_x(words):
     """
@@ -32,8 +38,20 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
-    raise NotImplementedError
+    exes = []
+    others = []
+    for word in words:
+        if word[0] == 'x':
+            exes.append(word)
+        else:
+            others.append(word)
+    others.sort()
+    exes.sort()
+    exes.extend(others)
+    return exes
+    
 
+#-------------------------------------------------------------------------------------
 
 def sort_last(tuples):
     """
@@ -49,8 +67,10 @@ def sort_last(tuples):
     >>> sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)])
     [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
     """
-    raise NotImplementedError
+    
+    return sorted(tuples, key = lambda x: x[-1])
 
+#------------------------------------------------------------------------------------
 
 def remove_adjacent(nums):
     """
@@ -68,8 +88,19 @@ def remove_adjacent(nums):
     >>> remove_adjacent([])
     []
     """
-    raise NotImplementedError
+    a = nums[:1]
+    for item in nums[1:]:
+        if item != a[-1]:
+            a.append(item)
+    print(a)
 
+remove_adjacent([3, 2, 3, 3, 3,4,5])
+
+
+######################.  ASK LUCAS WHY THIS WORKS ####################################
+
+
+#-----------------------------------------------------------------------------------------
 
 def linear_merge(list1, list2):
     """
@@ -85,4 +116,9 @@ def linear_merge(list1, list2):
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
     """
-    raise NotImplementedError
+    list1.extend(list2)
+    list1.sort()
+    return list1
+
+
+######### WHAT THE HELL IS LINEAR TIME ASK LUCAS ####################

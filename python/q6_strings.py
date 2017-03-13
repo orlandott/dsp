@@ -175,4 +175,14 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    
+  
+    half_a = (len(a)//2)
+    half_b = (len(b)//2)
+
+    if len(a) % 2 != 0:
+        half_a += 1
+    if len(b) % 2 != 0:
+        half_b += 1
+
+    return a[:half_a] + b[:half_b] + a[half_a:] + b[half_b:]
+
