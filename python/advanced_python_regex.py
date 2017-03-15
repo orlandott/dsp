@@ -17,7 +17,7 @@ df.degree.replace((r"M\.*S\.*"), 'MS', regex=True,inplace=True)
 
 
 ####################### Creating dummy variables for each of the degrees
-###################### (in order to be able to have more analytical capability)
+###################### (in order to be able to have more analytical capabilities)
 
 
     
