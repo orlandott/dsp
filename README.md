@@ -6,7 +6,8 @@
 [1. Pre-work Exercises](#section-a)  
 [2. Submitting Pre-work](#section-b)  
 [3. Mac vs Windows](#section-c)  
-[4. FAQs](#section-d)  
+[4. Mac Specs](#section-d)  
+[5. FAQs](#section-e)  
 
 
 ---
@@ -110,7 +111,18 @@ If you have a lot of familiarity with Linux (say > 1 year), then you may install
 
 ---
 
-## <a name="section-d"></a>4.  FAQs
+## <a name="section-d"></a>4.  Mac Specs
+
+We will be using [Docker](https://www.docker.com/what-docker) for software installations during the bootcamp.  
+
+### Docker on Mac
+Running Docker for Mac requires Mac OS X 10.10.3 Yosemite or newer. Your Mac must be a 2010 or newer model, with Intel’s hardware support for memory management unit (MMU) virtualization; i.e., Extended.
+
+### Docker on AWS Ubuntu
+There is the option to install Docker on an AWS Ubuntu instance.  
+
+
+## <a name="section-e"></a>5.  FAQs
 
 **Q:  Can I discuss prework with other students in the course?**  
 A:  Yes
