@@ -42,28 +42,25 @@ for x in range(len(unique)):
  
 
 
-######################## Merge last names with other columns
+######create new dataframe with "lastname, degree, title, email"
 
-# dicf = defaultdict(list, zip(unique,combined))
+df2 = df.copy()
 
+df2['name'] = df2['name'].apply(lambda x: x.split(' ')[-1])
 
-# #d1 = defaultdict(list, zip(unique,combined))
+mydict =  defaultdict(list)
 
-# for k, v in dicf:
-#     d1[k].append(v)
-
-# d = dict((k, tuple(v)) for k, v in d1.items())
-
-
-# print('Question 6 ---------------------------------------------')
-# q6_ordered_keys = sorted(unique)
-# for i in range(16):
-# 	print(q6_ordered_keys[i], ': ', d[q6_ordered_keys[i]])
-    
+for x in range(len(df2['name'])):
+	key = df2['name'][x]
+	mydict[key].append([df2['degree'][x], df2['title'][x], df2['email'][x]])
 
 
+print(mydict)
+###############################################################	
+	
 
-############################## Create list of (first name, last name)
+
+############################# Create list of (first name, last name)
 
 names = df['name'].tolist()
 first_last = []
