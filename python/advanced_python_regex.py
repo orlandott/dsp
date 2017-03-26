@@ -114,8 +114,7 @@ for x in df['email']:
     emails.append(x)
 
 print('---------Question 3: List of Emails------------------------')
-for x in emails:
-    print(x)
+print(emails)
     
 ################################### Counting email domains
 

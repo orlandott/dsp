@@ -19,13 +19,7 @@ df.degree.replace((r"M\.*S\.*"), 'MS', regex=True,inplace=True)
 ########################### Create list of unique last names
 
 
-names = df['name'].tolist()
-surnames = []
-for x in names:
-	name = x.split(' ')
-	surnames.append(name[-1])
-	
-unique = sorted(list(set(surnames)))
+unique = (sorted(list(set(x.split(' ')[-1] for x in df['name']))))
 
 
 ######################## Create list of  3 other columns
@@ -54,29 +48,34 @@ for x in range(len(df2['name'])):
 	key = df2['name'][x]
 	mydict[key].append([df2['degree'][x], df2['title'][x], df2['email'][x]])
 
+print("Quetion 6 --------------------------------------------")
 
-print(mydict)
-###############################################################	
-	
-
-
+first3valuess = {k: mydict[k] for k in sorted(mydict.keys())[:3]}
+print(first3valuess)
 ############################# Create list of (first name, last name)
 
 names = df['name'].tolist()
 first_last = []
 for x in names:
-	name = x.split(' ')
-	first_last.append((name[0],name[-1]))
+	full_name = x.split(' ')
+	first_last.append((full_name[0],full_name[-1]))
+
+
+first_last2 = [x.split(' ')[0] for x in df['name']]
+
 	
 dic_names = dict(zip(first_last,combined))
 
 print("Question 7 ------------------------------------------")
-# for x in dic_names:
-#     print(x, dic_names[x])
+
 
 first3vals = {k: dic_names[k] for k in sorted(dic_names.keys())[:3]}
 print(first3vals)
-		
+
+# print('old: ' , first_last)	
+
+# print('new: ' , first_last2)
+
     
  ############################## Create list of (last name, first name)   
 
