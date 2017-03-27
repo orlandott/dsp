@@ -54,6 +54,8 @@ first3valuess = {k: mydict[k] for k in sorted(mydict.keys())[:3]}
 print(first3valuess)
 ############################# Create list of (first name, last name)
 
+
+
 first_last = [(x.split(' ')[0], x.split(' ')[-1]) for x in df['name']]
 
 	
