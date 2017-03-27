@@ -54,14 +54,7 @@ first3valuess = {k: mydict[k] for k in sorted(mydict.keys())[:3]}
 print(first3valuess)
 ############################# Create list of (first name, last name)
 
-names = df['name'].tolist()
-first_last = []
-for x in names:
-	full_name = x.split(' ')
-	first_last.append((full_name[0],full_name[-1]))
-
-
-first_last2 = [x.split(' ')[0] for x in df['name']]
+first_last = [(x.split(' ')[0],x.split(' ')[-1]) for x in df['name']]
 
 	
 dic_names = dict(zip(first_last,combined))
@@ -72,9 +65,7 @@ print("Question 7 ------------------------------------------")
 first3vals = {k: dic_names[k] for k in sorted(dic_names.keys())[:3]}
 print(first3vals)
 
-# print('old: ' , first_last)	
 
-# print('new: ' , first_last2)
 
     
  ############################## Create list of (last name, first name)   
