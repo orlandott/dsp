@@ -21,6 +21,9 @@ Calling the function:
 
  CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 
+
+ The result is:
+
   
    -0.0886729270726
 
