@@ -1,5 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
+```
 from __future__ import print_function, division
 
 import numpy as np
@@ -37,7 +38,8 @@ thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
 
 print('Actual mean', pmf2.Mean())
 print('Observed mean', biased_pmf.Mean())
+```
 
-# There is very large difference between the biased and the unbiased mean. The actual number of children per family(1.02) 
-# is actually less than half what we would observe if we asked the children (2.4). The reason for this is that there are no 
-# 'zero-children family' children that we would have encountered in the survey.  
+There is very large difference between the biased and the unbiased mean. The actual number of children per family(1.02) 
+is actually less than half what we would observe if we asked the children (2.4). The reason for this is that there are no 
+'zero-children family' children that we would have encountered in the survey.  
