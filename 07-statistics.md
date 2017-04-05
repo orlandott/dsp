@@ -92,6 +92,7 @@ P(identical) = 1/300
 P(both male|fraternal) = (1/4)
 P(both male|identical) = (1/2)
 
+---------------------------------------------
 P(identical|both male) = P(identical) * P(both male|identical) / p(both male)
 
 
