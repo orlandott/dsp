@@ -86,13 +86,13 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 Trying to find P(identical | both male)
 
+```
 P(fraternal) = 1/125
 P(identical) = 1/300
 
 P(both male|fraternal) = (1/4)
 P(both male|identical) = (1/2)
 
----------------------------------------------
 P(identical|both male) = P(identical) * P(both male|identical) / p(both male)
 
 
@@ -112,6 +112,7 @@ P(identical|both male) = 15/33                    #divide by 3
 
 P(identical|both male) =  5/11
 
+```
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
