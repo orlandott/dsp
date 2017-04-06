@@ -118,7 +118,14 @@ P(identical|both male) =  5/11
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+One of the main differences at the heart of the distinction between these two camps is the use of "priors". Bayesian methods 
+use the prior possibility that a hypothesis is true and update that possibility after new data. Frequentist methods don't use 
+prior data and simply draw random samples from the population and decide on a commonly accepted p-value.  From a Bayesian approach the posterior probability can be 
+constantly updated with new data. Bayesian inferences are easier to interpret because they refer to probabilities of events
+not probabilities of random samples containing the parameter.
+
+Good statisticians should be able to use both frequentist and Bayesian methods depending on the data they are analyzing
+and which is the most appropriate approach.
 
 ---
 
